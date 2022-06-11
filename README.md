@@ -9,11 +9,11 @@
 
 | Metode   | End Point                                            | Dokumentasi | Deskripsi                                |
 |----------|------------------------------------------------------|-------------|------------------------------------------|
-| POST     |`http://e-moaney.herokuapp.com/public/api/register`   |[Register](#large_blue_circle-register-large_blue_circle) <br/>|------------------------------------------|
-| POST     |[login](#largebluecircle-login-largebluecircle) <br/> `http://e-moaney.herokuapp.com/public/api/login`            |-------------|------------------------------------------|
-| GET      |ip_ewallet/api/profile                  |-------------|------------------------------------------|
-| PUT      |ip_ewallet/api/profile/{id_user}        |-------------|------------------------------------------|
-| POST     |ip_ewallet/api/transaksi                |-------------|------------------------------------------|
+| POST     |`http://e-moaney.herokuapp.com/public/api/register`   |[Register](#large_blue_circle-register-large_blue_circle)|------------------------------------------|
+| POST     |`http://e-moaney.herokuapp.com/public/api/login`      |[Login](#large_blue_circle-login-large_blue_circle)|------------------------------------------|
+| GET      |`http://e-moaney.herokuapp.com/public/api/profile`    |[Profile](##large_blue_circle-profile-large_blue_circle)|------------------------------------------|
+| PUT      |`http://e-moaney.herokuapp.com/public/api/topup`      |[Top Up](#large_blue_circle-top-up-large_blue_circle)|------------------------------------------|
+| POST     |`http://e-moaney.herokuapp.com/public/api/transaksi`  |[Transaksi](#large_blue_circle-transaksi-large_blue_circle)|------------------------------------------|
 
 <br/>
 
