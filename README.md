@@ -9,15 +9,16 @@
 
 | Metode   | End Point                                            | Dokumentasi | Deskripsi                                |
 |----------|------------------------------------------------------|-------------|------------------------------------------|
-| POST     |[Register](#Register) <br/> `http://e-moaney.herokuapp.com/public/api/register`   |-------------|------------------------------------------|
-| POST     |[Login](#Login) <br/> `http://e-moaney.herokuapp.com/public/api/login`            |-------------|------------------------------------------|
+| POST     |[Register](#large_blue_circle-register-large_blue_circle) <br/> `http://e-moaney.herokuapp.com/public/api/register`   |-------------|------------------------------------------|
+| POST     |[login](#largebluecircle-login-largebluecircle) <br/> `http://e-moaney.herokuapp.com/public/api/login`            |-------------|------------------------------------------|
 | GET      |ip_ewallet/api/profile                  |-------------|------------------------------------------|
 | PUT      |ip_ewallet/api/profile/{id_user}        |-------------|------------------------------------------|
 | POST     |ip_ewallet/api/transaksi                |-------------|------------------------------------------|
 
 <br/>
 
-## :large_blue_circle: **Register** :large_blue_circle: 
+<!-- Register -->
+## :large_blue_circle: **Register** :large_blue_circle:
 ### **Method** : `POST` 
 ### **URL**    : `http://e-moaney.herokuapp.com/public/api/register`
 ### **Properties**
