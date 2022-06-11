@@ -9,11 +9,11 @@
 
 | Metode   | End Point                                            | Dokumentasi | Deskripsi                                |
 |----------|------------------------------------------------------|-------------|------------------------------------------|
-| POST     |`http://e-moaney.herokuapp.com/public/api/register`   |[Register](#large_blue_circle-register-large_blue_circle)|------------------------------------------|
-| POST     |`http://e-moaney.herokuapp.com/public/api/login`      |[Login](#large_blue_circle-login-large_blue_circle)|------------------------------------------|
-| GET      |`http://e-moaney.herokuapp.com/public/api/profile`    |[Profile](##large_blue_circle-profile-large_blue_circle)|------------------------------------------|
-| PUT      |`http://e-moaney.herokuapp.com/public/api/topup`      |[Top Up](#large_blue_circle-top-up-large_blue_circle)|------------------------------------------|
-| POST     |`http://e-moaney.herokuapp.com/public/api/transaksi`  |[Transaksi](#large_blue_circle-transaksi-large_blue_circle)|------------------------------------------|
+| POST     |`http://e-moaney.herokuapp.com/public/api/register`   |[Register](#large_blue_circle-register-large_blue_circle)|Registrasi akun|
+| POST     |`http://e-moaney.herokuapp.com/public/api/login`      |[Login](#large_blue_circle-login-large_blue_circle)|Masuk akun dan mendapatkan token|
+| GET      |`http://e-moaney.herokuapp.com/public/api/profile`    |[Profile](##large_blue_circle-profile-large_blue_circle)|Mendapatkan informasi akun|
+| PUT      |`http://e-moaney.herokuapp.com/public/api/topup`      |[Top Up](#large_blue_circle-top-up-large_blue_circle)|Melakukan topup|
+| POST     |`http://e-moaney.herokuapp.com/public/api/transaksi`  |[Transaksi](#large_blue_circle-transaksi-large_blue_circle)|Melakukan pembayaran terhadap pembelian yang sudah dilakukan|
 
 <br/>
 
@@ -202,6 +202,7 @@
     ```
 
 <br/>
+Belom Selesai
 
 ## :large_blue_circle: **Transaksi** :large_blue_circle: 
 ### **Method** : `POST` 
