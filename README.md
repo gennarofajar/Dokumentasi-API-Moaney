@@ -56,6 +56,27 @@
         "message": "Email sudah terdaftar"
     }
     ```
+    Apabila salah salah satu nama atau email atau password tidak diisi
+    ```json
+    {
+        "status": 400,
+        "message": "[Sesuai Key yang tidak diisi] harus diisi"
+    }
+    ```
+    Apabila salah nama, email, dan password tidak diisi
+    ```json
+    {
+        "status": 400,
+        "message": "Nama harus diisi & Email harus diisi & Password harus diisi"
+    }
+    ```
+    Apabila salah email yang dimasukkan tidak terdapat "@"
+    ```json
+    {
+        "status": 400,
+        "message": "Silahkan masukkan email yang valid"
+    }
+    ```
 - **500**
     ```json
     {
@@ -102,6 +123,13 @@
         "message": "Email dan Password harus diisi"
     }
     ```
+    Apabila email atau password salah 
+    ```json
+    {
+        "status": 400,
+        "message": "Email atau Password harus diisi"
+    }
+    ```
 - **500**
     ```json
     {
@@ -128,11 +156,14 @@
 - **200** <br/> Apabila berhasil
     ```json
     {
-        "id": "8",
-        "nama": "Laila",
-        "email": "laila@gmail.com",
-        "saldo": "0",
-        "nomor wallet": "751487997112"
+        "status": 200,
+        "data": {
+            "id": "8",
+            "nama": "Laila",
+            "email": "laila@gmail.com",
+            "saldo": "100000",
+            "nomor wallet": "751487997112"
+        }
     }
     ```
 - **400** <br/> Apabila tidak ada token
@@ -192,7 +223,6 @@
         "message": "jumlah harus lebih dari 0"
     }
     ```
-
 - **500**
     ```json
     {
